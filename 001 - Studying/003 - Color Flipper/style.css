@@ -1,0 +1,31 @@
+body{
+    transition: 0.25s;
+}
+#colorDisplay{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 100px auto;
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px hsl(0, 0%, 0%, 0.5);
+    padding: 4rem;
+    border-radius: 0.5rem;
+}
+#colorDisplay h1{
+    font-weight: 900;
+}
+#newColorButton{
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#newColorButton:hover{
+    background-color: hsl(0, 0%, 0%);
+}
+#newColorButton:active{
+    background-color: hsl(0, 0%, 30%);
+}

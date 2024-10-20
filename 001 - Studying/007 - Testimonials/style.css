@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+
+#testimonialsContainer{
+    width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 6px 6px 16px 8px hsl(0, 0%, 0%, .3);
+    border-radius: 10px;
+    line-height: 1.25;
+}
+
+#photo{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5{
+    text-align: right;
+    font-style: italic;
+}
+
+nav{
+    text-align: center;
+}
+
+nav button{
+    cursor: pointer;
+    width: 6rem;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: .5rem 1rem;
+}
+
+nav button:hover{
+    background-color: hsl(207, 44%, 39%);
+}
+nav button:active{
+    background-color: hsl(207, 44%, 59%);
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    transition: 0.25s;
+    
+}
+
+section{
+    position: relative;
+    top: 25vh;
+    color: white;
+    text-align: center;
+    border: 3px dashed white;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto auto;
+}
+
+h1{
+    font-size: 5rem;
+    margin: 25px;
+}
+
+section button{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#buttonAdd{
+    background-color: hsl(198, 99%, 60%);
+}
+#buttonAdd:hover{
+    background-color: hsl(198, 99%, 45%);
+}
+#buttonAdd:active{
+    background-color: hsl(198, 99%, 70%);
+}
+
+#buttonSub{
+    background-color: hsl(30, 100%, 56%);
+}
+#buttonSub:hover{
+    background-color: hsl(30, 100%, 41%);
+}
+#buttonSub:active{
+    background-color: hsl(30, 100%, 66%);
+}
+
+#buttonReset{
+    background-color: hsl(80, 97%, 59%);
+}
+#buttonReset:hover{
+    background-color: hsl(80, 97%, 41%);
+}
+#buttonReset:active{
+    background-color: hsl(80, 97%, 70%);
+}

@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+}
+
+nav{
+    position: relative;
+}
+
+nav ul{
+    width: 6rem;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0.5rem;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.active{
+    background-color: hsl(160, 65%, 51%);
+    color: white;
+    padding: 0.5rem;
+}

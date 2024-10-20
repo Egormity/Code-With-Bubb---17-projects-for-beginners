@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+}
+section{
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+h1 > span{
+    color: red;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    background-color: hsl(177, 77%, 30%);
+    color: white;
+    box-shadow: 3px 3px 10px hsl(0, 0%, 0%, .5);
+}
+button:hover{
+    background-color: hsl(177, 77%, 25%);
+}
+button:active{
+    background-color: hsl(177, 77%, 35%);
+}

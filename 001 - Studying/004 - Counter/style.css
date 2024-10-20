@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#counter{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    top: 100px;
+}
+
+#counterDisplay{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
+
+#counter button{
+    border: none;
+    padding: .5rem 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#counterAdd{
+    background-color: hsl(90, 100%, 55%);
+}
+#counterAdd:hover{
+    background-color: hsl(90, 100%, 45%);
+}
+#counterAdd:active{
+    background-color: hsl(90, 100%, 65%);
+}
+
+#counterSub{
+    background-color: hsl(22, 100%, 55%);
+}
+#counterSub:hover{
+    background-color: hsl(22, 100%, 45%);
+}
+#counterSub:active{
+    background-color: hsl(22, 100%, 65%);
+}

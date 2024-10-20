@@ -1,0 +1,32 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+div{
+    box-shadow: 4px 4px 10px 4px hsl(0, 0%, 0%, 0.5);
+    text-align: center;
+    width: 50%;
+    margin: 100px auto;
+    padding: 3rem;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: hsl(258, 74%, 54%);
+    color: white;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: hsl(258, 74%, 44%);
+}
+
+button:active{
+    background-color: hsl(258, 74%, 64%);
+}
